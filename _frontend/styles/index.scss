@@ -8,6 +8,7 @@ $primary: $orange;
 $link: $orange;
 
 @import "~bulma/bulma";
+@import "~bulma-prefers-dark/bulma-prefers-dark.sass";
 
 html {
   width: 100%;
@@ -16,7 +17,7 @@ html {
 
 body {
   min-height: 100%;
-  background: #f6f7f8;
+//   background: #f6f7f8;
 }
 
 .centered {
